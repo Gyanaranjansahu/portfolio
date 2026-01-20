@@ -6,7 +6,7 @@ export default function About() {
     return(
         <section style={{height:'100vh'}} id="about">
             <div className="second">
-                <h1>What i do</h1>
+                <h1 style={{fontWeight:'700px', fontSize:"2rem"}}>What i do</h1>
                 <span>A passionate self-motivated Computer Science Student</span>
                 <span> With a strong foundation in HTML,CSS,JS,Reactjs.</span>
                 <span>I am skilled passionate Web designer</span>

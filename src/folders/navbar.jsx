@@ -5,10 +5,13 @@ export default function Navbar() {
     return(
         <nav>
             <div className="container">
-                <a onClick={()=>{document.getElementById("home").scrollIntoView({behavior:"smooth"})}} className="tag" href="#home">Home</a>
-                <a onClick={()=>{document.getElementById("about").scrollIntoView({behavior:"smooth"})}} className="tag" href="#about">About</a>
-                <a  className="tag" href="#">Services</a>
-                 <button> <FaRegMessage />Contact</button>
+                <img src={logo} alt="" className="logo" />
+                <ul style={{display:'flex', justifyContent:'space-evenly',alignItems:'center', listStyleType:'none'}}>
+                    <li><a onClick={()=>{document.getElementById("home").scrollIntoView({behavior:"smooth"})}} className="tag" href="#home">Home</a></li>
+                    <li><a onClick={()=>{document.getElementById("about").scrollIntoView({behavior:"smooth"})}} className="tag" href="#about">About</a></li>
+                    <li> <a  className="tag" href="#">Services</a></li>
+                </ul>
+                 <button id="contact">  <FaRegMessage />Contact</button>
             </div>
         </nav>
     )
