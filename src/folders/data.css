@@ -7,7 +7,7 @@
     flex-direction: row;
     height: 100vh;
     max-width: 100%;
-
+    margin-top: 20px;
 }
 .bag{
     width: 110px;
@@ -51,9 +51,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        gap: 10px;
     }
     .my{
         width: fit-content;
+        
         
     }
     .name {

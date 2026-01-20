@@ -3,8 +3,8 @@ import my from "../assets/profile.jpg"
 import { IoBag } from "react-icons/io5";
 export default function Content() {
     return(
-<section className="part" id="home">
-    <div className="about">
+<section className="part" >
+    <div className="about" id="home">
                 <span className="name">I'm  <span style={{color:"yellow"}}>Gyana</span></span>
                 <span className="designer">Website Designer</span><br />
                 <p id="about">i am skilled and passionate designer <br />
