@@ -22,12 +22,12 @@
     width: 50px;
     outline: hidden;
     background-size: cover;
-    margin: auto 7rem;
     /* gap: 9rem; */
+    margin: auto 7rem;
 }
 .lala{
-    margin: auto 7rem;
     height: max-content;
+     margin: auto 7rem;
     width: max-content;
     width: 240px;
     height: 300px;
@@ -35,7 +35,7 @@
     border-radius: 20px;
     margin: 10px;
     background-size: cover;
-    box-shadow: 5px 5px 11px white;
+    box-shadow: 6px 6px 16px rgb(0, 0, 0);
     border: none;
     cursor: pointer;
 }
@@ -46,10 +46,17 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
-        gap: 8rem;
+        gap: 6rem;
     }
     .lala{
-        height: 150px;
+        margin-right: 4rem;
+        height: 130px;
         width: 170px;
+    }
+    #project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
     }
 }

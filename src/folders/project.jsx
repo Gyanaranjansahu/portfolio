@@ -8,7 +8,7 @@ export default function Project() {
         <section id="project" style={{height:'100vh',width:'100vw',display: 'flex', 
                 alignItems:'center',
                 justifyContent:'center',}}>
-                    <h1 style={{margin:'10px auto'}}>Project</h1>
+                    <h1>Project</h1>
             <div className="img-container" style={{ display: 'flex', 
                 alignItems:'center',
                 justifyContent:'center',
