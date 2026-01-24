@@ -3,11 +3,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1rem;
+    
 } 
 .part1{
      height: max-content;
     width: max-content;
+    
 }
 
 .part2{
@@ -23,6 +25,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 5rem;
 } 
 .part1{
     display: flex;
@@ -73,9 +76,9 @@ textarea{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 300px;
+    width: 100px;
     height: 100px;
-    margin: 10px;
+    margin: 2px;
     border: none;
 }
 .ss{
@@ -109,5 +112,16 @@ textarea{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #name{
+         width:100px;
+    }
+    #pass{
+         width:100px;
     }
 }

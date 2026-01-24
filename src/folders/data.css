@@ -18,14 +18,12 @@
     border: none;
 }
 .my{
-    box-shadow: 3px 3px 10px gray;
+    box-shadow: 3px 3px 10px rgb(215, 210, 210);
     border-radius: 40px;
     height: 50vh;
     object-fit: cover;
     border: none;
     outline: hidden;
-    position: relative;
-    z-index: -1;
 }
 .name {
     font-size: 60px;

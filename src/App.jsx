@@ -5,10 +5,12 @@ import About from "./folders/section2";
 import Education from "./folders/section3";
 import Skill from "./folders/section4";
 import Contact from "./folders/section5";
+import { useState } from "react";
 export default function App() {
+  const[color,setColor]=useState(true);
   return(
-    <div className="body">
-      <Navbar/>
+    <div className={color?'black':'light'}>
+      <Navbar color={color} setColor={setColor}/>
       <Content/>
       <About/>
       <Education/>

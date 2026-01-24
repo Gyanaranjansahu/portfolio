@@ -5,9 +5,26 @@
 html{
     scroll-behavior: smooth;
 }
+
+button{
+    width: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+.dark{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.light{
+ background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     height: 50px;
     width: 100vw;
     background-color: black;
@@ -16,22 +33,22 @@ box-shadow: 2px 2px 10px gray;
 position: sticky;
 top: 0;
 }
-h3{
+/* h3{
     position: absolute;
     left: 1rem;
-}
+} */
 .container{
     margin: 10px auto;
      font-weight: 300;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5rem;
+    gap: 1rem;
     margin: 0px 10px;
 }
 li:hover{
@@ -118,6 +135,7 @@ button{
         backdrop-filter: blur(30px);
         border: none;
         border-radius: 10px;
+        gap: 2rem;
     }
     .hide{
         visibility: hidden;
@@ -127,11 +145,4 @@ button{
         right: 1rem;
         visibility: visible;
     }
-}
-.ss{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding: 10px;
 }
