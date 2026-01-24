@@ -1,0 +1,30 @@
+.footer{
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(5, 5, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    box-shadow: 5px 5px 10px black;
+    /* border-radius: 10px; */
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px;
+    margin: 10px auto;
+}
+.li{
+    border: 1px solid white;
+    font-size: large;
+    width: 20px;
+    padding: 5px;
+    border-radius: 50%;
+}

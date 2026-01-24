@@ -6,6 +6,8 @@ import Education from "./folders/section3";
 import Skill from "./folders/section4";
 import Contact from "./folders/section5";
 import { useState } from "react";
+import Project from "./folders/project";
+import Footer from "./fotter";
 export default function App() {
   const[color,setColor]=useState(true);
   return(
@@ -16,6 +18,8 @@ export default function App() {
       <Education/>
       <Skill/>
       <Contact/>
+      <Project/>
+      <Footer/>
     </div>
   )
 };

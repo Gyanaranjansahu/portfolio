@@ -1,0 +1,24 @@
+#id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+}
+.i{
+    height:50px ;
+    width: 50px;
+    outline: hidden;
+    background-size: cover;
+}
+.lala{
+    height: max-content;
+    width: max-content;
+}

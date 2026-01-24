@@ -16,7 +16,7 @@ export default function Content() {
                 with experience in creating user-friendly Website</p>
                 <div className="div">
                      <span className="web"><FaInstagram/></span>
-                <span className="web"><FaWhatsapp/></span>
+                <span className="web"><FaLinkedin/></span>
                 <span className="web"><FaGithub/></span>
                 <span className="web"><FaWhatsapp/></span>
                 </div>
