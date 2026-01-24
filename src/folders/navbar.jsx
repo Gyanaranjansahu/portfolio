@@ -12,7 +12,7 @@ export default function Navbar() {
                     <li><a onClick={()=>{document.getElementById("home").scrollIntoView({behavior:"smooth"})}} className="tag" href="#home">Home</a></li>
                     <li><a onClick={()=>{document.getElementById("about").scrollIntoView({behavior:"smooth"})}} className="tag" href="#about">About</a></li>
                     <li> <a  className="tag" href="#skill">Skills</a></li>
-                    <li> <a  className="tag" href="#project">Projects</a></li>
+                    <li> <a  className="tag" href="#education">Education</a></li>
                      <li> <a  className="tag" href="#contact">Contact</a></li>
                 </ul>
 

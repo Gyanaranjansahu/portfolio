@@ -65,7 +65,7 @@ button{
     margin-right: 1rem;
     font-weight: 700;
 }
-#contact{
+#c{
     margin: 10px ;
     width: 110px;
     height: 30px;
@@ -117,6 +117,7 @@ button{
         margin-top: 3.2rem;
         backdrop-filter: blur(30px);
         border: none;
+        border-radius: 10px;
     }
     .hide{
         visibility: hidden;
@@ -126,4 +127,11 @@ button{
         right: 1rem;
         visibility: visible;
     }
+}
+.ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
 }
