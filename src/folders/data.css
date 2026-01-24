@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100vw;
+    height: 100vh;
     gap: 7rem;
     flex-direction: row;
     max-width: 100%;
@@ -35,7 +36,7 @@
    font-size: 60px;
     font-weight: 800;
 }
-#about{
+#a{
     font-size: large;
 }
 .about{
@@ -48,12 +49,13 @@
    left: 1rem;
    top: 18rem;
 }
-.items{
+.div{
      display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    gap: 1rem;
+    gap: 2rem;
+    font-size: larger;
 }
 .web{
     box-shadow: 2px 2px 10px lime;

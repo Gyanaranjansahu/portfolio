@@ -1,6 +1,7 @@
 .education{
     height: 100vh;
     width: 100vw;
+    height: max-content;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -23,9 +24,10 @@
     border-radius: 10px;
     padding: 10px 7px;
     gap: 1rem;
-    box-shadow: 4px 4px 10px lime;
+    box-shadow: 4px 4px 10px rgb(213, 214, 213);
     border-radius: 20px;
     border: none;
+    outline: none;
 }
 .sub button{
     width: 5rem;
@@ -52,13 +54,14 @@ h4{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    height: 250px;
+    height: 230px;
+    height: max-content;
     width: 260px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 5px 3px;
     gap: 1rem;
-    box-shadow: 4px 4px 10px lime;
+    box-shadow: 4px 4px 10px rgb(212, 215, 212);
     border-radius: 20px;
     border: none;
     font-size: 1rem;

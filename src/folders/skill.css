@@ -1,0 +1,109 @@
+#skill{
+    width: 100vw;
+    height: 100vh;
+    width: 100%;
+     max-height:  100%;
+     height: max-content;
+     margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+
+    height: max-content;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 3rem;
+   
+}
+/* .skills{
+    display:flex;
+    flex-wrap: wrap;
+    
+} */
+.box1 {
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 10px 8px;
+    height: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+     flex-direction: column;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 10px rgb(0, 13, 255);
+    border-radius: 20px;
+    border: none;
+    width: 270px;
+}
+.box1 input{
+    width: 100%;
+    color: yellow;
+    outline: none;
+    height: 8px;
+    background-color: yellow;
+}
+.input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f5c542;
+}
+.box2 {
+    font-size: large;
+    padding: 10px 8px;
+     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: max-content;
+    box-shadow: 5px 5px 10px rgb(251, 255, 249);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    /* width: 600px; */
+}
+.storeskill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 20px;
+}
+.it{
+    width: max-content;
+    height: 70px;
+    height: max-content;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    border: none;
+}
+.line{
+    height: 1px;
+    background-color: white;
+}
+.it{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+/* .logo{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+} */
+ @media (max-width:600px) {
+    .boxes{
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+ }

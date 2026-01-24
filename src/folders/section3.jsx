@@ -4,7 +4,7 @@ import { FaSchool } from "react-icons/fa";
 import { BiSolidSchool } from "react-icons/bi";
 export default function Education(){
 return(
-    <section className="education">
+    <section className="education" id='about'>
         <h1>My Education</h1>
         <div className="container">
             <div className="sub">

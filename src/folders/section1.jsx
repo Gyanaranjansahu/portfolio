@@ -12,9 +12,9 @@ export default function Content() {
     <div className="about" id="home">
                 <span className="name">Hello,I'm <br /> <span style={{color:"yellow"}}>Gyana</span></span>
                 <span className="designer">Web Developer</span><br />
-                <p id="about">i am skilled and passionate designer <br />
+                <p id="a">i am skilled and passionate designer <br />
                 with experience in creating user-friendly Website</p>
-                <div className="items">
+                <div className="div">
                      <span className="web"><FaInstagram/></span>
                 <span className="web"><FaWhatsapp/></span>
                 <span className="web"><FaGithub/></span>
