@@ -7,35 +7,36 @@
     height: 100vh;
     margin-top: 2rem;
 }
-/* .img-container{
+.img-container{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     height: max-content;
     width: max-content;
-     border: 1px solid white;
 
-} */
+}
 .i{
-    height:50px ;
+    height:30px ;
     width: 50px;
     outline: hidden;
     background-size: cover;
     /* gap: 9rem; */
     margin: auto 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .lala{
-    height: max-content;
      margin: auto 7rem;
-    width: max-content;
-    width: 240px;
-    height: 300px;
-    border: 1px solid white;
+    width: 180px;
+    height: 130px;
+    height: max-content;
     border-radius: 20px;
     margin: 10px;
     background-size: cover;
-    box-shadow: 6px 6px 16px rgb(0, 0, 0);
+    box-shadow: 8px 8px 16px rgb(0, 0, 0);
     border: none;
     cursor: pointer;
 }
@@ -49,8 +50,7 @@
         gap: 6rem;
     }
     .lala{
-        margin-right: 4rem;
-        height: 130px;
+        height: 100px;
         width: 170px;
     }
     #project{

@@ -13,12 +13,13 @@ export default function Navbar({color,setColor}) {
             <button  onClick={()=>setColor(!color)}  >{color?< MdDarkMode/>:<MdLightMode/>}</button>
             <div className="container">
                 <h3 style={{color:'lime'}}>Gyana's <span style={{color:"yellow"}}>Portfolio</span></h3>
-                <ul style={{display:'flex', justifyContent:'space-evenly',alignItems:'center', listStyleType:'none', transition:'all 0.2s'}} className={display?"hide":''} >
+                <ul  style={{display:'flex', justifyContent:'space-evenly',alignItems:'center', listStyleType:'none', transition:'all 0.2s', color:'black'}} className={display?"hide":''} >
                     <li><a onClick={()=>{document.getElementById("home").scrollIntoView({behavior:"smooth"})}} className="tag" href="#home">Home</a></li>
                     <li><a onClick={()=>{document.getElementById("about").scrollIntoView({behavior:"smooth"})}} className="tag" href="#about">About</a></li>
                     <li> <a  className="tag" href="#skill">Skills</a></li>
                     <li> <a  className="tag" href="#education">Education</a></li>
                      <li> <a  className="tag" href="#contact">Contact</a></li>
+                      <li> <a  className="tag" href="#project">Project</a></li>
                 </ul>
 
             </div>
