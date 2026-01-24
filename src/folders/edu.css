@@ -1,0 +1,66 @@
+.education{
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.sub{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 7px;
+    gap: 1rem;
+    box-shadow: 4px 4px 10px lime;
+    border-radius: 20px;
+    border: none;
+}
+.sub button{
+    width: 5rem;
+    background-color: lime;
+    height: 2rem;
+    border-radius: 30px;
+}
+.line{
+    height: 1px ;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+h4{
+    color: yellow;
+}
+@media (max-width:600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+}
+.sub{
+     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 260px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 3px;
+    gap: 1rem;
+    box-shadow: 4px 4px 10px lime;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+}
+}
