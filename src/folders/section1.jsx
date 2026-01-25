@@ -12,8 +12,8 @@ export default function Content() {
     <div className="about" id="home">
                 <span className="name">Hello,I'm <br /> <span style={{color:"yellow"}}>Gyana</span></span>
                 <span className="designer">Web Developer</span><br />
-                <p id="a">i am skilled and passionate designer <br />
-                with experience in creating user-friendly Website</p>
+                <p id="a">i am skilled and passionate Web Developer <br />
+                with hands-on experience in building responsive and user friendly Website </p>
                 <div className="div">
                      <span className="web"><FaInstagram/></span>
                 <span className="web"><FaLinkedin/></span>

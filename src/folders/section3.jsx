@@ -15,7 +15,6 @@ return(
                 <span>Gyana Vikash Residental School</span>
                 <span>Odisha</span>
                 <div className='line'></div>
-                Score:54%
             </div>
             <div className="sub">
                    <button>2022</button>
@@ -33,7 +32,7 @@ return(
                 <span>Kalam institute of Technology</span>
                 <span>Odisha</span>
                 <div className='line'></div>
-                Score:54%
+                score:75%
             </div>
         </div>
     </section>

@@ -88,6 +88,10 @@ textarea{
     padding: 10px;
    
 }
+input{
+    outline: none;
+    
+}
 #name{
     width:200px;
     height: 30px;

@@ -2,7 +2,19 @@ import './submit.css';
 import { MdEmail } from "react-icons/md";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { useState } from 'react';
 export default function Contact(params) {
+    const[sub,setSub]=useState({
+        name:'',
+        email:''
+    });
+    function data(e){
+       setSub({
+        ...sub,
+        [e.target.name]:[e.target.value]
+     } )
+    }
+
     return (
         <section id='contact' className='hero'>
             <h2 style={{ margin: '2rem' }} >Contact Me</h2>
@@ -25,13 +37,13 @@ export default function Contact(params) {
                     <h2>
                         Drop a Message  </h2>
                     <span className='ss'>
-                        <input type="text" placeholder='Your Name' id='name' required />
-                        <input type="text" placeholder='Password' id='pass' required />
-                    </span>
-                    <textarea name="" id="">
+                        <input type="text" placeholder='Your Name' name='name' required onChange={data} value={sub.name} />
+                        <input type="text" placeholder='Email' name='email' required onChange={data}  value={sub.email}/>
+                        </span>
+                    <textarea >
                         write your message here..
                     </textarea>
-                    <button id='se'>Send via Email <FaTelegramPlane /> </button>
+                    <button id='se' onClick={()=>console.log(sub) }>Send via Email <FaTelegramPlane /> </button>
 
                 </div>
             </div>

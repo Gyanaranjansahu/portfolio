@@ -103,6 +103,14 @@ button{
     visibility: hidden;
     transition: all 0.5s;
 }
+li{
+    transition: all 0.3s;
+}
+li:hover{
+    background-color: rgb(4, 0, 255);
+    width: 100%;
+    
+}
 .humber:hover{
     /* background-color: rgb(82, 72, 72); */
     border-radius: 5px;
