@@ -15,10 +15,10 @@ export default function Content() {
                 <p id="a">i am skilled and passionate Web Developer <br />
                 with hands-on experience in building responsive and user friendly Website </p>
                 <div className="div">
-                     <span className="web"><FaInstagram/></span>
-                <span className="web"><FaLinkedin/></span>
-                <span className="web"><FaGithub/></span>
-                <span className="web"><FaWhatsapp/></span>
+                     <span className="web"><FaInstagram /></span>
+                <span className="web"> <FaLinkedin /></span>
+                <span className="web"><FaGithub /></span>
+                <span className="web"> <FaWhatsapp /></span>
                 </div>
                 <br />
                 <button className="bag"><IoBag />Hire me</button>

@@ -24,9 +24,9 @@ export default function Navbar({color,setColor}) {
 
             </div>
             <div className="humber" onClick={()=>{setDisplay(!display)}}>
-                <div className="side1 check"></div>
-            <div className="side2 check"></div>
-            <div className="side3 check"></div>
+                <div className="side1" id={color?"check":""}></div>
+            <div className="side2 " id={color?"check":""}></div>
+            <div className="side3 " id={color?"check":""}></div>
             </div>
             
         </nav>
