@@ -13,6 +13,7 @@ export default function First() {
         function add2(){
         return window.open('https://wa.me/qr/DKDUKH3MJ575N1') ;
     }
+    
     return(
     <section className="part" id="home">
         <div className="about" >
@@ -27,7 +28,7 @@ export default function First() {
                 <span className="web"  onClick={()=>add2()}> <FaWhatsapp /></span>
             </div>
             <br />
-            <button className="bag"><IoBag />Hire me</button>
+            <button className="bag" onClick={()=>add1()}><IoBag />Hire me</button>
         </div>
 
         <div className="image">

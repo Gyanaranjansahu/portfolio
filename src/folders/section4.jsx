@@ -22,7 +22,7 @@ export default function Skill(){
                     <span style={{color:'yellow'}}><FaJs/></span>
                     <input type="range" value="75" />
                     <span style={{color:'blue'}}><FaReact/></span>
-                    <input className="input" type="range" value="70" />
+                    <input className="input" type="range" value="69" />
 
                 </div>
                 <div className="box2">

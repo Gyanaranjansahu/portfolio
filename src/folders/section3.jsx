@@ -8,7 +8,7 @@ return(
         <h1>My Education</h1>
         <div className="container">
             <div className="sub">
-                <button>2020</button>
+                <button className='year'>2020</button>
                 
                 <span ><h4>High School(10th Grade)   <RiGraduationCapLine/></h4></span>
                 <span>BSE Odisha</span>
@@ -17,7 +17,7 @@ return(
                 <div className='line'></div>
             </div>
             <div className="sub">
-                   <button>2022</button>
+                   <button  className='year'>2022</button>
                 <span ><h4>High Secondary(12th Grade)  <FaSchool/></h4></span>
                 <span>CHSE Odisha</span>
                 <span>Kalam institute of technology</span>
@@ -26,7 +26,7 @@ return(
                 Score:72%
             </div>
             <div className="sub">
-                   <button>2026</button>
+                   <button  className='year'>2026</button>
                 <span ><h4>Bachelor of Technology   < BiSolidSchool/></h4></span>
                 <span>Computer Science Engineering</span>
                 <span>Kalam institute of Technology</span>
