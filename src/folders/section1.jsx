@@ -14,6 +14,9 @@ export default function First() {
         function add2(){
         return window.open('https://wa.me/qr/DKDUKH3MJ575N1') ;
     }
+    function add3(){
+        return window.open('https://github.com/Gyanaranjansahu')
+    }
     
     return(
     <section className="part" id="home">
@@ -37,7 +40,7 @@ export default function First() {
             <div className="div">
                 <span className="web"><FaInstagram /></span>
                 <span className="web" onClick={()=>add1()} > <FaLinkedin /></span>
-                <span className="web"><FaGithub /></span>
+                <span className="web" onClick={()=>add3()}><FaGithub /></span>
                 <span className="web"  onClick={()=>add2()}> <FaWhatsapp /></span>
             </div>
             <br />
