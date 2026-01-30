@@ -58,15 +58,20 @@ ul{
     border-radius: 50%;
     cursor: pointer;
 }
-.tag{
+a{
     text-decoration: none;
     color: white;
     transition: all 0.1s;
     height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 li{
     border: 1px solid white;
     height:2.8rem;
+    width: 4.7rem;
      text-align: center;
      display: flex;
      align-items: center;
@@ -151,13 +156,17 @@ li{
         right: 0%;
         height: 70vh;
         border: 1px solid white;
-        background-color: #4f6e5f;
+        background-color: #0a192f;
         margin-top: 3.2rem;
         border: none;
         border-radius: 10px;
         gap: 2rem;
         text-align:center ;
+        backdrop-filter: blur(1rem);
+        box-shadow: 4px 4px 10px gray;
+        color: black;
     }
+
     .hide{
         visibility: hidden;
     }
