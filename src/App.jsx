@@ -8,7 +8,6 @@ import { useState } from "react";
 import Project from "./folders/project";
 import Footer from "./fotter";
 import First from "./folders/section1";
-import TextCursor from "./TextCursor";
 
 
 export default function App() {
