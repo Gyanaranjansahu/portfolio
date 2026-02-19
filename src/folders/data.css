@@ -7,9 +7,6 @@
     gap: 7rem;
     flex-direction: row;
     max-width: 100%;
-    margin-top: 10px;
-
-    
 }
 .bag{
     width: 110px;
@@ -100,11 +97,11 @@
         font-size: 30px;
     }
     .designer{
-        font-size: 0px;
+        font-size: 10px;
     font-weight: 200;
 }
 .images{
-    width: 199px;
-    height: 200px;
+    width: 242px;
+    height: 249px;
 }
 }

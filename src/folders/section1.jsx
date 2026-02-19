@@ -22,7 +22,7 @@ export default function First() {
     <section className="part" id="home">
         <div className="about" >
             <span className="name">Hello,I'm <br /> <span style={{ color: "yellow" }}>Gyana</span></span>
-            <span className="designer" style={{}}>
+            <span className="designer" style={{fontSize:"1rem"}}>
                 <ReactTyped
       strings={[
         "Web Developer",
