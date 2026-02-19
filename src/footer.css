@@ -1,5 +1,5 @@
 .footer{
-    height: 30vh;
+    height: 9vh;
     width: 100vw;
     background-color: rgb(5, 5, 40);
     color: white;
@@ -19,15 +19,20 @@
     justify-content: center;
     gap: 2rem;
     padding: 10px;
-    margin: 10px auto;
+    margin: 10px auto;   
 }
 .li{
     border: 1px solid white;
-    font-size: large;
+    font-size: medium;
     width: 20px;
     padding: 5px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    color: white;
+    background-color: red;
+    box-shadow: 2px 2px 6px gray;
+    cursor: pointer;
 }

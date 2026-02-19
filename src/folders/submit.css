@@ -6,25 +6,26 @@
     gap: 1rem;
     
 } 
+/* part2,ss,se */
 .part1{
      height: max-content;
     width: max-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     
 }
 
 .part2{
-    height: max-content;
-    width: max-content;
-   border: 1px solid white;
-    box-shadow: 8px 8px 10px gray;
-    border-radius: 20px;
-    padding: 10px;
-    border: none;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: smaller;
+border: 1px solid white;
+margin: 0px 5px;
+border-radius: 20px;
+box-shadow: 10px 10px 16px rgba(128, 128, 128, 0.251);
+border: none;
 } 
 .part1{
     display: flex;
@@ -90,45 +91,26 @@ textarea{
     padding: 10px;
    
 }
-input{
-    outline: none;
-    background: transparent;
-    height: 2rem;
-    border: none;
-    color: yellowgreen;
-     font-weight: 400;
-    font-size: 1rem;
-}
-input::placeholder{
-    color: rgb(188, 180, 180);
-    font-weight: 400;
-    font-size: 1rem;
-}
-#name{
-    width:200px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    
-}
-#pass{
-    width:200px;
-    border-radius: 10px;
-    height: 30px;
-    border: none;
-}
-#se{
-    margin: 10px;
-    width: 150px;
-    background-color: lime;
-    font-size: 1rem;
-}
+ #se{
+        font-size: small;
+        width: max-content;
+        padding: 5px;
+        border-radius:20px ;
+        background-color: lime;
+    }
+
 textarea{
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
 
 }
 @media (max-width:600px) {
+    #se{
+        font-size: small;
+        width: max-content;
+        padding: 5px;
+        border-radius:20px ;
+    }
     .con{
         display: flex;
         flex-direction: column;
@@ -141,9 +123,18 @@ textarea{
         align-items: center;
     }
     #name{
-         width:100px;
+         width:50px;
     }
     #pass{
          width:100px;
+    }
+    .part2{
+        font-size: small;
+        width: 400px;
+        height: 200px;
+    }
+    .linkedin,.email{
+font-size: small;
+height: 100px;
     }
 }

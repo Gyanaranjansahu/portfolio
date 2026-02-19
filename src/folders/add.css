@@ -1,32 +1,26 @@
-#project{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 2rem;
+.myproject{
+    
 }
-.img-container{
-    display: flex;
+.img-containers{
+    margin-top: 8%;
+width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    height: max-content;
-    width: max-content;
-
+    display: flex;
+    align-items:center ; 
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 .i{
-    height:30px ;
-    width: 50px;
-    outline: hidden;
-    background-size: cover;
-    /* gap: 9rem; */
-    margin: auto 7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    border: none;
 }
 
 .lala{
@@ -40,6 +34,27 @@
     box-shadow: 8px 8px 16px rgb(0, 0, 0);
     border: none;
     cursor: pointer;
+}
+#a{
+background-image:url("../assets/password.jpg") ;
+background-size: cover;
+height: 200px;
+}
+#b{
+background-image:url("../assets/tic.jpg") ;
+background-size: cover;
+height: 200px;
+}
+#e{
+background-image: url("../assets/time.jpg");
+background-size: cover;
+height: 200px;
+}
+#d{
+background-image:url("../assets/calculator.jpg") ;
+background-size: cover;
+height: 200px;
+
 }
 @media (max-width:600px){
     .img-container{
@@ -59,5 +74,15 @@
         align-items: center;
         justify-content: center;
         text-align: start;
+    }
+    .i{
+         width: 100px;
+    height: 100px;
+    }
+    #a,#b,#e,#d{
+        height: 130px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 2px 2px 5px gray;
     }
 }

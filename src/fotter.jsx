@@ -6,9 +6,6 @@ import './footer.css'
 export default function Footer() {
     return(
         <footer className="footer">
-            <h1>Web developer</h1>
-            <span>it is my first portfolio and i am excited to publish it</span>
-            <span>i am passionate about front end development and my journey not done yet'it is start</span>
             <div className="c">
                 <span className="li"><FaInstagram/> </span>
                 <span className="li"> <FaGithub/></span>

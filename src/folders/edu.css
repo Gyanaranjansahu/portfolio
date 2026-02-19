@@ -1,11 +1,12 @@
 .education{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     height: max-content;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 6px auto;
 }
 .container{
     place-items: center;
@@ -18,13 +19,13 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    height: 250px;
-    width: 300px;
+    height: 280px;
+    width: 200px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px 7px;
     gap: 1rem;
-    box-shadow: 4px 4px 10px rgb(213, 214, 213);
+    box-shadow: 4px 4px 10px rgba(213, 214, 213, 0.215);
     border-radius: 20px;
     border: none;
     outline: none;
@@ -74,12 +75,12 @@ h4{
     width: 260px;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 5px 3px;
-    gap: 1rem;
+    /* padding: 5px 3px; */
+  
     box-shadow: 4px 4px 10px rgb(212, 215, 212);
     border-radius: 20px;
     border: none;
     font-size: 1rem;
-    padding: 10px;
+    
 }
 }

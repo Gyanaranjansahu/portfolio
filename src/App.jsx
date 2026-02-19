@@ -8,10 +8,23 @@ import { useState } from "react";
 import Project from "./folders/project";
 import Footer from "./fotter";
 import First from "./folders/section1";
+import TextCursor from "./TextCursor";
+
+
 export default function App() {
   const [color, setColor] = useState(true);
   return (
     <div className={color ? 'black' : 'light'}>
+      {/* <TextCursor
+  text="⚛️"
+  spacing={80}
+  followMouseDirection
+  randomFloat
+  exitDuration={0.3}
+  removalInterval={20}
+  maxPoints={10}
+/> */}
+
       <Navbar color={color} setColor={setColor} />
        <First/>  
       <About />

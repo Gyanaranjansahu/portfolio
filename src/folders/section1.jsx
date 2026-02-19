@@ -47,8 +47,8 @@ export default function First() {
             <button className="bag" onClick={()=>add1()}><IoBag />Hire me</button>
         </div>
 
-        <div className="image">
-            <img src={my} alt="my" className="my" />
+        <div className="images" >
+            {/* <img src={my} alt="my" className="my" /> */}
         </div>
     </section>
     )
