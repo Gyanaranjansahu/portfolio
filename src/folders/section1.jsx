@@ -20,9 +20,9 @@ export default function First() {
     
     return(
     <section className="part" id="home">
-        <div className="about" >
-            <span className="name">Hello,I'm <br /> <span style={{ color: "yellow" }}>Gyana</span></span>
-            <span className="designer" style={{fontSize:"1rem"}}>
+        <div className="about">
+            <span className="name" style={{fontSize:"40px", fontFamily:"sans-serif."}}>Hello,I'm <br /> <span style={{ color: "yellow", fontSize:"20px" }}>Gyana</span></span>
+            <span className="designer" style={{ fontWeight:"bolder"}}>
                 <ReactTyped
       strings={[
         "Web Developer",
@@ -35,7 +35,7 @@ export default function First() {
     >
     </ReactTyped>
                 </span><br />
-            <p id="a">i am skilled and passionate Web Developer <br />
+            <p id="a" style={{fontFamily:"sans-serif", fontSize:"20px"}}>i am skilled and passionate Web Developer <br />
                 with hands-on experience in building responsive and user friendly Website </p>
             <div className="div">
                 <span className="web"><FaInstagram /></span>
@@ -47,7 +47,8 @@ export default function First() {
             <button className="bag" onClick={()=>add1()}><IoBag />Hire me</button>
         </div>
 
-        <div className="images" >
+        <div className="images"  style={{display:"flex", alignItems:"center", justifyContent:"center", 
+            marginTop:"2rem", height:"350px", width:"350px"}}>
             {/* <img src={my} alt="my" className="my" /> */}
         </div>
     </section>
