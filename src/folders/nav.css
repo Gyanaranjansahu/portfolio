@@ -136,15 +136,6 @@ button{
     
 }
 
-#check .side1{
-    transform: rotateY(-45deg);
-}
-#check .side2{
-    opacity: 0;
-}
-#check .side3{
-    transform: rotateY(45deg);
-}
 
 
 

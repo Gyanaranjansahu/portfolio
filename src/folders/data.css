@@ -27,7 +27,17 @@
    outline: none;
    border: transparent;
    box-shadow: 10px 10px 26px rgb(5, 252, 9);
-
+position: relative;
+z-index: 1;
+overflow: visible;
+}
+.images::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: blue;
+z-index: -1;
 }
 .name {
   font-size: 1rem;
@@ -99,7 +109,7 @@
     font-weight: 900;
 }
 .images{
-    width: 250px;
-    height: 260px;
+    width: 240px;
+    height: 240px;
 }
 }
