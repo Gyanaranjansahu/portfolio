@@ -92,7 +92,7 @@ height:200px;
 gap: 10px;
 cursor: pointer;
 }
-.four>h3,p:hover{
+p>a:hover{
 color: blue;
 }
 @media (max-width:640px) {

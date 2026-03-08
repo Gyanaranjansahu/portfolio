@@ -10,7 +10,7 @@ export default function Navbar({color,setColor}) {
     return(
         <nav>
             
-            <button  onClick={()=>setColor(!color)}  >{color?< MdDarkMode/>:<MdLightMode/>}</button>
+            <button style={{borderRadius:"50%", height:"20px", width:"20px"}} onClick={()=>setColor(!color)}  >{color?< MdDarkMode/>:<MdLightMode/>}</button>
             <div className="container">
                 <h3 style={{color:'lime'}}>Gyana's <span style={{color:"yellow"}}>Portfolio</span></h3>
                 <ul  style={{display:'flex', justifyContent:'space-evenly',alignItems:'center', listStyleType:'none', transition:'all 0.2s', color:'black'}} className={display?"hide":''} >
