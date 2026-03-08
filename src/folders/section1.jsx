@@ -20,7 +20,7 @@ export default function First() {
     
     return(
     <section className="part" id="home">
-        <div className="about">
+        <div className="about" style={{ textAlign:"center", padding:"5px"}}>
             <span className="name" style={{fontSize:"40px", fontFamily:"sans-serif."}}>Hello,I'm <br /> <span style={{ color: "yellow", fontSize:"20px" }}>Gyana</span></span>
             <span className="designer" style={{ fontWeight:"bolder"}}>
                 <ReactTyped
@@ -47,9 +47,10 @@ export default function First() {
             <button className="bag" onClick={()=>add1()}><IoBag />Hire me</button>
         </div>
 
-        <div className="images"  style={{display:"flex", alignItems:"center", justifyContent:"center", 
-            marginTop:"2rem", height:"350px", width:"350px"}}>
+        <div className="hii" style={{ width:"50%", height:"50%", display:"flex", alignItems:"anchor-center", justifyContent:"center", padding:"10px"} }>
+            <div className="images"  >
             {/* <img src={my} alt="my" className="my" /> */}
+        </div>
         </div>
     </section>
     )

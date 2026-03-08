@@ -28,17 +28,11 @@
    border: transparent;
    box-shadow: 10px 10px 26px rgb(5, 252, 9);
 position: relative;
-z-index: 1;
-overflow: visible;
+overflow: hidden;
+height: 300px;
+width: 300px;
 }
-.images::before{
-    content: "";
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    background-color: blue;
-z-index: -1;
-}
+
 .name {
   font-size: 1rem;
     
@@ -109,7 +103,7 @@ z-index: -1;
     font-weight: 900;
 }
 .images{
-    width: 240px;
-    height: 240px;
+    width: 250px;
+    height: 250px;
 }
 }
