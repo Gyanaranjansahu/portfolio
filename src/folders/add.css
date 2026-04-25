@@ -1,19 +1,22 @@
-.myproject{
-    
-}
-.img-containers{
-    margin-top: 8%;
-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 0.5rem;
-    align-items: center;
-    text-align: center;
+/* .myproject{
+      height: 110vh;
+    width: 100%;
+    border: 1px solid white;
     display: flex;
-    align-items:center ; 
+     align-items: center;
+        justify-content: center;
+        
+} */
+.img-containers{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+    gap: 10px;
 }
 .i{
     width: 200px;
@@ -23,47 +26,13 @@ width: 100%;
     border: none;
 }
 
-.lala{
-     margin: auto 7rem;
-    width: 180px;
-    height: 150px;
-    height: max-content;
-    border-radius: 20px;
-    margin: 10px;
-    background-size: cover;
-    box-shadow: 8px 8px 16px rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-}
-#pass{
-background-image:url("../assets/password.jpg") ;
-background-size: cover;
-height: 200px;
-}
-#b{
-background-image:url("../assets/tic.jpg") ;
-background-size: cover;
-height: 200px;
-}
-#e{
-background-image: url("../assets/time.jpg");
-background-size: cover;
-height: 200px;
-}
-#d{
-background-image:url("../assets/calculator.jpg") ;
-background-size: cover;
-height: 200px;
 
-}
+
 @media (max-width:600px){
     .img-container{
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        gap: 6rem;
+      display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr))
+
     }
     .lala{
         height: 100px;
